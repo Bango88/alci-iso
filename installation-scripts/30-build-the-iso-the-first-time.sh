@@ -27,12 +27,12 @@ echo
 	#Let us set the desktop"
 	#First letter of desktop is small letter
 
-	#desktop="xfce"
+	desktop="gnome"
 	#lightdmDesktop="xfce"
 
-	#arcolinuxVersion='v21.03.1'
+	arcolinuxVersion='v21.03.1'
 
-	#isoLabel='arcolinux-next-'$arcolinuxVersion'-x86_64.iso'
+	isoLabel='alci-'$arcolinuxVersion'-x86_64.iso'
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 60-1"
@@ -41,9 +41,9 @@ echo
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "
-	#echo "Building the desktop                   : "$desktop
-	#echo "Building version                       : "$arcolinuxVersion
-	#echo "Iso label                              : "$isoLabel
+	echo "Building the desktop                   : "$desktop
+	echo "Building version                       : "$arcolinuxVersion
+	echo "Iso label                              : "$isoLabel
 	echo "Do you have the right archiso version? : "$archisoVersion
 	echo "What is the required archiso version?  : "$archisoRequiredVersion
 	echo "Build folder                           : "$buildFolder

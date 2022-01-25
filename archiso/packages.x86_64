@@ -153,13 +153,13 @@ dex
 libxinerama
 make
 xorg-xkill
-xterm
+#xterm
 xorg-xrdb
 mkinitcpio-openswap
 
 ##### you can also use nmtui from the terminal
-#networkmanager
-#network-manager-applet
+networkmanager
+network-manager-applet
 
 #######################################################
 ###                    EXTRAS                       ###
@@ -167,9 +167,9 @@ mkinitcpio-openswap
 
 ##### xorg applications
 
-#xorg-server
-#xorg-apps
-#neofetch
+xorg-server
+xorg-apps
+neofetch
 
 
 ##### Drivers for graphical cards
@@ -180,14 +180,20 @@ mkinitcpio-openswap
 #to have fullscreen
 #virtualbox-guest-utils
 
-#xf86-video-intel
-#xf86-video-amdgpu
-#xf86-video-nouveau
+xf86-video-intel
+xf86-video-amdgpu
+xf86-video-nouveau
 
-#nvidia
-#nvidia-settings
-#nvidia-utils
+nvidia
+nvidia-settings
+nvidia-utils
 
+
+##### Some more important packages
+fakeroot
+git
+firefox
+archlinux-wallpaper
 
 
 ##### lightdm display manager
@@ -202,26 +208,27 @@ mkinitcpio-openswap
 
 ##### gdm display manager
 
-#gdm
+gnome
+gdm
 
 
 
 ##### want to have base-devel group
 
-#base-devel
+base-devel
 
 ##### want to have linux-headers
 
-#linux-headers
+linux-headers
 
 
 
 ##### want to have a desktop
 
 #test
-#xfce4
-#xfce4-goodies
-#neofetch
+xfce4
+xfce4-goodies
+neofetch
 
 
 
